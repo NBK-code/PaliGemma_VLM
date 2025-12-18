@@ -44,8 +44,7 @@ Text inputs are formatted to match the PaliGemma training and inference setup:
 - The `<bos>` token is inserted manually
 - A newline character (`\n`) is appended explicitly
 - Automatic BOS/EOS insertion by the tokenizer is disabled
-
-Example input format: `<image><image>...<image><bos>Your prompt here\n`
+- Example input format: `<image><image>...<image><bos>Your prompt here\n`
 ---
 
 ## Multimodal Fusion
